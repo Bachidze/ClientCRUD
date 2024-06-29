@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-export default function page() {
+export default function Page() {
     const router = useRouter()
   const [name, setName] = useState("");
   const [price, setPrice] = useState(0);
